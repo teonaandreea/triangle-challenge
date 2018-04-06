@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Triangle challenge</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="intro">
+      <h1>△ Triangle challenge △</h1>
+      <p> Input the lengths of the triangle's three sides below: </p>
+    </div>
+
+    <form id="form" class="form-group">
+      <input type="number" placeholder="Length of the first side (cm)" id="length1" class="form-control">
+      <input type="number" placeholder="Length of the second side (cm)" id="length2" class="form-control">
+      <input type="number" placeholder="Length of the third side (cm)" id="length3" class="form-control">
+    </form>
+
+    <button type="button" class="btn btn-primary" id="btn-reset">Reset</button>
+
+    <p id="response"></p>
+
+    <div id="facts">
+      <p> 💡Other facts about your triangle: </p>
+      <ul>
+        <li>Perimeter: <span id="perimeter"></span></li>
+        <li>Semiperimeter: <span id="semiperimeter"></span></li>
+        <li>Area: <span id="area"></span></li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

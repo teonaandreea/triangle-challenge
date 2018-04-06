@@ -1,0 +1,20 @@
+{
+  "name": "triangle-challenge",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teonaandreea/triangle-challenge.git"
+  },
+  "author": "Teona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teonaandreea/triangle-challenge/issues"
+  },
+  "homepage": "https://github.com/teonaandreea/triangle-challenge#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
